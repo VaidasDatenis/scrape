@@ -15,8 +15,13 @@ firebase_admin.initialize_app(cred, {
     'databaseURL': 'https://akcijoslt-8862e-default-rtdb.europe-west1.firebasedatabase.app/'
 })
 doc_ref = db.reference("/lidl")
+
+doc_ref.delete()
+
+doc_ref = db.reference("/lidl")
+
 lidlUrl = 'https://www.lidl.lt'
-URL = 'https://www.lidl.lt/c/visos-sios-savaites-akcijos/a10023711?channel=store&tabCode=Current_Sales_Week'
+URL = 'https://www.lidl.lt/c/visos-sios-savaites-akcijos/a10025491?tabCode=Current_Sales_Week'
 headers = {
     'User-Agent': "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36 Edge/12.246"}
 r = requests.get(url=URL, headers=headers)
@@ -24,7 +29,7 @@ soup = BeautifulSoup(r.content, 'html5lib')
 products = []
 unique_sweets = []
 soupList = soup.find(
-    'section', attrs={'id': 'ATheHeroStage__TabPanel81114361'})
+    'section', attrs={'id': 'ATheHeroStage__TabPanel81140021'})
 
 for navLink in soupList.findAll('div', attrs={'class': 'ATheHeroStage__Offer'}):
     l = navLink.find('a')
@@ -94,6 +99,6 @@ for navLink in soupList.findAll('div', attrs={'class': 'ATheHeroStage__Offer'}):
                 doc_ref.push(product)
 
 
-json_object = json.dumps(products, ensure_ascii=False, indent=2)
-with open('lidl.json', 'w', encoding='utf-8') as f:
-    f.write(json_object)
+# json_object = json.dumps(products, ensure_ascii=False, indent=2)
+# with open('lidl.json', 'w', encoding='utf-8') as f:
+#     f.write(json_object)

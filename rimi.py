@@ -1,4 +1,5 @@
 import requests
+import uuid
 import json
 import html5lib
 from bs4 import BeautifulSoup, Tag
@@ -34,6 +35,7 @@ while True:
     for card in cards:
         product = {}
         if isinstance(card, Tag):
+            product['id'] = str(uuid.uuid4())
             cardTitle = card.find(
                 'div', attrs={'class': 'js-product-container'})
             product['title'] = cardTitle.get('data-gtms-banner-title')
@@ -96,6 +98,6 @@ while True:
                 product['dateTo'] = " ".join(cardDateTo.text.split())
 
             doc_ref.push(product)
-            json_object = json.dumps(product, ensure_ascii=False, indent=2)
-            with open(filename, "a", encoding='utf-8') as f:
-                f.write(json_object + ",")
+            # json_object = json.dumps(product, ensure_ascii=False, indent=2)
+            # with open(filename, "a", encoding='utf-8') as f:
+            #     f.write(json_object + ",")

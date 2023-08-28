@@ -1,5 +1,6 @@
 import requests
 import json
+import uuid
 import html5lib
 from bs4 import BeautifulSoup, Tag
 import firebase_admin
@@ -11,8 +12,12 @@ firebase_admin.initialize_app(cred, {
     'databaseURL': 'https://akcijoslt-8862e-default-rtdb.europe-west1.firebasedatabase.app/'
 })
 doc_ref = db.reference("/maxima")
-# firestore_client = firestore.client()
-# doc_ref = firestore_client.collection("maxima")
+
+doc_ref.delete()
+
+doc_ref = db.reference("/maxima")
+
+
 URL = "https://www.maxima.lt/akcijos"
 headers = {
     'User-Agent': "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36 Edge/12.246"}
@@ -29,6 +34,7 @@ for section in sections.findAll('section'):
         for card in cards:
             product = {}
             if isinstance(card, Tag):
+                product['id'] = str(uuid.uuid4())
                 product['category'] = category
                 productImage = card.find('img', attrs={'class': 'swiper-lazy'})
                 product['imageUrl'] = productImage['data-src']
@@ -75,7 +81,7 @@ for section in sections.findAll('section'):
                 products.append(product)
                 doc_ref.push(product)
 
-json_object = json.dumps(products, ensure_ascii=False, indent=2)
+# json_object = json.dumps(products, ensure_ascii=False, indent=2)
 
-with open('maxima.json', 'w', encoding='utf-8') as f:
-    f.write(json_object)
+# with open('maxima.json', 'w', encoding='utf-8') as f:
+#     f.write(json_object)
