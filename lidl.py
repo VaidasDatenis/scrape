@@ -10,7 +10,7 @@ from firebase_admin import credentials, db
 import validators
 
 cred = credentials.Certificate(
-    "C:\\Users\\tager\\Desktop\\scrap\\service-key.json")
+    "C:\\Users\\tager\\Desktop\\scrap\\scrape\\service-key.json")
 firebase_admin.initialize_app(cred, {
     'databaseURL': 'https://akcijoslt-8862e-default-rtdb.europe-west1.firebasedatabase.app/'
 })
@@ -28,10 +28,12 @@ r = requests.get(url=URL, headers=headers)
 soup = BeautifulSoup(r.content, 'html5lib')
 products = []
 unique_sweets = []
-soupList = soup.find(
-    'section', attrs={'id': 'ATheHeroStage__TabPanel81140021'})
+soupList = soup.findAll(
+    'div', attrs={'class': 'ATheHeroStage__TabPanels'})
+sectionTag = soupList[0].findAll(
+    'section')
 
-for navLink in soupList.findAll('div', attrs={'class': 'ATheHeroStage__Offer'}):
+for navLink in sectionTag[0].findAll('div', attrs={'class': 'ATheHeroStage__Offer'}):
     l = navLink.find('a')
     link = l['href']
     valid = validators.url(link)
@@ -97,7 +99,6 @@ for navLink in soupList.findAll('div', attrs={'class': 'ATheHeroStage__Offer'}):
 
                 products.append(product)
                 doc_ref.push(product)
-
 
 # json_object = json.dumps(products, ensure_ascii=False, indent=2)
 # with open('lidl.json', 'w', encoding='utf-8') as f:
