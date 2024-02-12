@@ -6,19 +6,6 @@ from bs4 import BeautifulSoup, Tag
 import firebase_admin
 from firebase_admin import credentials, db
 
-def delete_collection(coll_ref, batch_size):
-    docs = coll_ref.list_documents(page_size=batch_size)
-    deleted = 0
-
-    for doc in docs:
-        doc.delete()
-        deleted = deleted + 1
-
-    if deleted >= batch_size:
-        return delete_collection(coll_ref, batch_size)
-    
-
-
 cred = credentials.Certificate(
     # Windows
     # "C:\\Users\\tager\\Desktop\\scrap\\service-key.json"
@@ -39,6 +26,7 @@ headers = {
 r = requests.get(url=URL, headers=headers)
 soup = BeautifulSoup(r.content, 'html5lib')
 products = []
+recipeProducts = []
 sections = soup.find(
     'div', attrs={'data-offersfilter-target': 'offersWrapper'})
 
@@ -48,18 +36,22 @@ for section in sections.findAll('section'):
     for cards in section.findAll('div', attrs={'data-controller': 'offerCard'}):
         for card in cards:
             product = {}
+            recipeProduct = {}
             if isinstance(card, Tag):
                 product['id'] = str(uuid.uuid4())
                 product['category'] = category
+                recipeProduct['category'] = category
                 productImage = card.find('img', attrs={'class': 'swiper-lazy'})
                 product['imageUrl'] = productImage['data-src']
                 productTitle = card.find(
                     'h4', attrs={'class': 'text-truncate'})
                 product['title'] = " ".join(productTitle.text.split())
+                recipeProduct['title'] = " ".join(productTitle.text.split())
                 priceEur = card.find('div', attrs={'class': 'price-eur'})
                 priceCents = card.find('span', attrs={'class': 'price-cents'})
                 # if len(priceEur) != 0 and len(priceCents) != 0:
                 product['priceEur'] = priceEur.text
+                recipeProduct['priceEur'] = priceEur.text
                 product['priceCents'] = priceCents.text
 
                 dateTo = card.find(
@@ -94,8 +86,9 @@ for section in sections.findAll('section'):
                     print()
 
                 products.append(product)
+                recipeProducts.append(recipeProduct)
                 doc_ref.push(product)
 
-# json_object = json.dumps(products, ensure_ascii=False, indent=2)
-# with open('maxima.json', 'w', encoding='utf-8') as f:
-#     f.write(json_object)
+json_object = json.dumps(recipeProducts, ensure_ascii=False, indent=2)
+with open('maxima-recipes-data.json', 'w', encoding='utf-8') as f:
+    f.write(json_object)

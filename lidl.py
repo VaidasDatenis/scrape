@@ -27,6 +27,7 @@ headers = {'User-Agent': "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/
 r = requests.get(url=URL, headers=headers)
 soup = BeautifulSoup(r.content, 'html5lib')
 products = []
+recipeProducts = []
 unique_sweets = []
 soupList = soup.findAll('div', attrs={'class': 'ATheHeroStage__TabPanels'})
 sectionTag = soupList[0].findAll('section')
@@ -65,14 +66,17 @@ for navLink in sectionTag[0].findAll('div', attrs={'class': 'ATheHeroStage__Offe
         for cardProduct in section.findAll('li', attrs={'class': 'ACampaignGrid__item--product'}):
             if isinstance(cardProduct, Tag):
                 product = {}
+                recipeProduct = {}
                 # product['id'] = str(uuid.uuid4())
                 product['category'] = categoryName
+                recipeProduct['category'] = categoryName
                 data = cardProduct.find(
                     'div', attrs={'class': 'detail__grids'})
                 parsedData = json.loads(data['data-grid-data'])
                 # print(json.dumps(parsedData, indent=4))
                 product['imageUrl'] = parsedData[0]['image']
                 product['title'] = parsedData[0]['fullTitle']
+                recipeProduct['title'] = parsedData[0]['fullTitle']
                 if parsedData[0]['ribbons']:
                     product['dateTo'] = parsedData[0]['ribbons'][0]['text']
                 else:
@@ -82,6 +86,7 @@ for navLink in sectionTag[0].findAll('div', attrs={'class': 'ATheHeroStage__Offe
                     product['description'] = ''
                 else:
                     product['description'] = parsedData[0]['price']['basePrice']['text']
+                    recipeProduct['description'] = parsedData[0]['price']['basePrice']['text']
                 # discount
                 if parsedData[0]['price']['discount'] is None:
                     product['discount'] = ''
@@ -97,12 +102,14 @@ for navLink in sectionTag[0].findAll('div', attrs={'class': 'ATheHeroStage__Offe
                     product['priceEur'] = ''
                 else:
                     product['priceEur'] = str(parsedData[0]['price']['price'])
+                    recipeProduct['priceEur'] = str(parsedData[0]['price']['price'])
 
                 products.append(product)
+                recipeProducts.append(recipeProduct)
                 doc_ref.push(product)
 
 
 # this is for creating JSON file.
-# json_object = json.dumps(products, ensure_ascii=False, indent=2)
-# with open('lidl.json', 'w', encoding='utf-8') as f:
-#     f.write(json_object)
+json_object = json.dumps(recipeProducts, ensure_ascii=False, indent=2)
+with open('lidl-recipe-data.json', 'w', encoding='utf-8') as f:
+    f.write(json_object)

@@ -26,6 +26,7 @@ headers = {
 r = requests.get(url=URL, headers=headers)
 soup = BeautifulSoup(r.content, 'html5lib')
 products = []
+recipeProducts = []
 sections = soup.find('div', attrs={'data-content': 'filter-categories'})
 links = sections.findAll('a', attrs={'class', 'cursor-pointer'})
 # print('1 --- ', links)
@@ -43,12 +44,16 @@ for link in links:
     for card in cards:
         if isinstance(card, Tag):
             product = {}
+            recipeProduct = {}
             product['id'] = str(uuid.uuid4())
             product['category'] = " ".join(linkCategory.text.split())
+            recipeProduct['category'] = " ".join(linkCategory.text.split())
             cardTitle = card.find('p', attrs={'class': 'akcija_title'})
             product['title'] = " ".join(cardTitle.text.split())
+            recipeProduct['title'] = " ".join(cardTitle.text.split())
             cardDescription = card.find('p', attrs={'class': 'akcija_description'})
             product['description'] = " ".join(cardDescription.text.split())
+            recipeProduct['description'] = " ".join(cardDescription.text.split())
             cardImg = card.find('img', attrs={'class': 'card-img-top webpexpress-processed'})
             if cardImg['src'] is not None:
                 product['imageUrl'] = cardImg['src']
@@ -73,6 +78,7 @@ for link in links:
                 cardPrice = cardMain.find('span', attrs={'class': 'main'})
                 cardCents = cardMain.find('span', attrs={'class': 'sub'})
                 product['priceEur'] = cardPrice.text
+                recipeProduct['priceEur'] = cardPrice.text
                 product['priceCents'] = cardCents.text
             cardDate = card.find(
                 'p', attrs={'class': 'm-0 w-100 akcija_description text-center'})
@@ -85,10 +91,11 @@ for link in links:
                     cardPriceOld.text, cardCentsOld.text)
 
             products.append(product)
+            recipeProducts.append(recipeProduct)
             doc_ref.push(product)
 
 
 # this is for creating JSON file.
-# json_object = json.dumps(products, ensure_ascii=False, indent=2)
-# with open('iki.json', 'w', encoding='utf-8') as f:
-#     f.write(json_object)
+json_object = json.dumps(recipeProducts, ensure_ascii=False, indent=2)
+with open('iki-recipe-data.json', 'w', encoding='utf-8') as f:
+    f.write(json_object)
