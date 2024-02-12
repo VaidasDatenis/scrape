@@ -1,37 +1,35 @@
-from urllib.error import HTTPError
 import requests
 import json
 import html5lib
 import uuid
-import toolz
-from bs4 import BeautifulSoup, NavigableString, Tag
+from bs4 import BeautifulSoup, Tag
 import firebase_admin
 from firebase_admin import credentials, db
 import validators
 
 cred = credentials.Certificate(
-    "C:\\Users\\tager\\Desktop\\scrap\\scrape\\service-key.json")
+    # Windows
+    # "C:\\Users\\tager\\Desktop\\scrap\\service-key.json"
+    # MAC
+    "/Users/vaidas/Documents/scrape/service-key.json"
+)
 firebase_admin.initialize_app(cred, {
     'databaseURL': 'https://akcijoslt-8862e-default-rtdb.europe-west1.firebasedatabase.app/'
 })
+
 doc_ref = db.reference("/lidl")
-
 doc_ref.delete()
-
 doc_ref = db.reference("/lidl")
 
 lidlUrl = 'https://www.lidl.lt'
-URL = 'https://www.lidl.lt/c/visos-sios-savaites-akcijos/a10025491?tabCode=Current_Sales_Week'
-headers = {
-    'User-Agent': "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36 Edge/12.246"}
+URL = "https://www.lidl.lt/c/visos-sios-savaites-akcijos/a10025491?channel=store&tabCode=Current_Sales_Week"
+headers = {'User-Agent': "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36 Edge/12.246"}
 r = requests.get(url=URL, headers=headers)
 soup = BeautifulSoup(r.content, 'html5lib')
 products = []
 unique_sweets = []
-soupList = soup.findAll(
-    'div', attrs={'class': 'ATheHeroStage__TabPanels'})
-sectionTag = soupList[0].findAll(
-    'section')
+soupList = soup.findAll('div', attrs={'class': 'ATheHeroStage__TabPanels'})
+sectionTag = soupList[0].findAll('section')
 
 for navLink in sectionTag[0].findAll('div', attrs={'class': 'ATheHeroStage__Offer'}):
     l = navLink.find('a')
@@ -46,26 +44,29 @@ for navLink in sectionTag[0].findAll('div', attrs={'class': 'ATheHeroStage__Offe
     soupIn = BeautifulSoup(request.content, 'html5lib')
 
     for section in soupIn.findAll('section', attrs={'data-selector': 'GRID'}):
-        product = {}
-        product['id'] = str(uuid.uuid4())
+        
         additionalTitle = l.find(
             'strong', attrs={'class': 'ATheHeroStage__Headline'})
         category = section.find(
             'li', attrs={'class': 'ACampaignGrid__item--for-two'})
+        categoryName = ''
         if isinstance(category, Tag):
             categoryTitle = category.find(
                 'h2', attrs={'class', 'ATape__Headline'})
             if categoryTitle:
-                product['category'] = " ".join(categoryTitle.text.split())
+                categoryName = " ".join(categoryTitle.text.split())
             else:
-                product['category'] = " ".join(additionalTitle.text.split())
+                categoryName = " ".join(additionalTitle.text.split())
 
         else:
-            product['category'] = " ".join(
+            categoryName = " ".join(
                 additionalTitle.text.split())
 
         for cardProduct in section.findAll('li', attrs={'class': 'ACampaignGrid__item--product'}):
             if isinstance(cardProduct, Tag):
+                product = {}
+                # product['id'] = str(uuid.uuid4())
+                product['category'] = categoryName
                 data = cardProduct.find(
                     'div', attrs={'class': 'detail__grids'})
                 parsedData = json.loads(data['data-grid-data'])
@@ -90,16 +91,18 @@ for navLink in sectionTag[0].findAll('div', attrs={'class': 'ATheHeroStage__Offe
                 if parsedData[0]['price']['oldPrice'] is None:
                     product['oldPrice'] = ''
                 else:
-                    product['oldPrice'] = parsedData[0]['price']['oldPrice']
+                    product['oldPrice'] = str(parsedData[0]['price']['oldPrice'])
                 # current price
                 if parsedData[0]['price']['price'] is None:
                     product['priceEur'] = ''
                 else:
-                    product['priceEur'] = parsedData[0]['price']['price']
+                    product['priceEur'] = str(parsedData[0]['price']['price'])
 
                 products.append(product)
                 doc_ref.push(product)
 
+
+# this is for creating JSON file.
 # json_object = json.dumps(products, ensure_ascii=False, indent=2)
 # with open('lidl.json', 'w', encoding='utf-8') as f:
 #     f.write(json_object)

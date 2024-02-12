@@ -7,13 +7,17 @@ import firebase_admin
 from firebase_admin import credentials, db
 
 cred = credentials.Certificate(
-    "C:\\Users\\tager\\Desktop\\scrap\\service-key.json")
+    # "C:\\Users\\tager\\Desktop\\scrap\\service-key.json"
+    "/Users/vaidas/Documents/scrape/service-key.json"
+)
 firebase_admin.initialize_app(cred, {
     'databaseURL': 'https://akcijoslt-8862e-default-rtdb.europe-west1.firebasedatabase.app/'
 })
+
 doc_ref = db.reference("/rimi")
-# firestore_client = firestore.client()
-# doc_ref = firestore_client.collection("rimi")
+doc_ref.delete()
+doc_ref = db.reference("/rimi")
+
 URL = "https://www.rimi.lt/e-parduotuve/lt/akcijos?page={}&pageSize=80"
 rimiUrl = "https://www.rimi.lt"
 headers = {

@@ -1,0 +1,1500 @@
+[
+  {
+    "category": "Visos šios savaitės akcijos",
+    "title": "Sviestas",
+    "description": "1 kg = 6,53 €",
+    "oldPrice": "0",
+    "priceEur": "1.11"
+  },
+  {
+    "category": "Visos šios savaitės akcijos",
+    "title": "Braškės",
+    "description": "1 kg = 5,98 €",
+    "oldPrice": "4.99",
+    "priceEur": "2.99"
+  },
+  {
+    "category": "Visos šios savaitės akcijos",
+    "title": "Šviežia viščiukų ketvirčių mėsa „XXL“",
+    "description": "1 kg",
+    "oldPrice": "4.99",
+    "priceEur": "3.89"
+  },
+  {
+    "category": "Visos šios savaitės akcijos",
+    "title": "Rudi vištų kiaušiniai",
+    "description": "",
+    "oldPrice": "0",
+    "priceEur": "1.49"
+  },
+  {
+    "category": "Sutaupyk su LIDL",
+    "title": "Juoda duona su saulėgrąžomis",
+    "description": "280 g | 1 kg = 3,54 €",
+    "oldPrice": "1.49",
+    "priceEur": "0.99"
+  },
+  {
+    "category": "Sutaupyk su LIDL",
+    "title": "Natūralus mineralinis vanduo",
+    "description": "1 l = 0,23 €",
+    "oldPrice": "0",
+    "priceEur": "0.45"
+  },
+  {
+    "category": "Sutaupyk su LIDL",
+    "title": "Vytintos dešrelės „Kabanosy Dūzgės“",
+    "description": "200 g | 1 kg = 14,95 €",
+    "oldPrice": "5.99",
+    "priceEur": "2.99"
+  },
+  {
+    "category": "Sutaupyk su LIDL",
+    "title": "Šaldyta pica „Prosciutto Pesto“",
+    "description": "360 g | 1 kg = 6,36 €",
+    "oldPrice": "3.59",
+    "priceEur": "2.29"
+  },
+  {
+    "category": "Sutaupyk su LIDL",
+    "title": "Kavos pupelės „Crema“",
+    "description": "",
+    "oldPrice": "0",
+    "priceEur": "9.99"
+  },
+  {
+    "category": "Sutaupyk su LIDL",
+    "title": "Kavos pupelės „Barista“",
+    "description": "",
+    "oldPrice": "0",
+    "priceEur": "9.99"
+  },
+  {
+    "category": "Sutaupyk su LIDL",
+    "title": "Batonėlis „Maxi King“",
+    "description": "35 g | 1 kg = 16,86 €",
+    "oldPrice": "0.89",
+    "priceEur": "0.59"
+  },
+  {
+    "category": "Sutaupyk su LIDL",
+    "title": "Jogurtinis gėrimas",
+    "description": "8 x 100 g | 1 kg = 3,74 €",
+    "oldPrice": "4.49",
+    "priceEur": "2.99"
+  },
+  {
+    "category": "Sutaupyk su LIDL",
+    "title": "Kečupas",
+    "description": "875 ml | 1 l = 3,42 €",
+    "oldPrice": "4.69",
+    "priceEur": "2.99"
+  },
+  {
+    "category": "Sutaupyk su LIDL",
+    "title": "Traškučiai",
+    "description": "165 g | 1 kg = 9,64 €",
+    "oldPrice": "2.99",
+    "priceEur": "1.59"
+  },
+  {
+    "category": "Sutaupyk su LIDL",
+    "title": "Šampūnas „Classic“",
+    "description": "400 ml | 1 l = 12,48 €",
+    "oldPrice": "8.49",
+    "priceEur": "4.99"
+  },
+  {
+    "category": "Zuikio daržas",
+    "title": "Lietuviški virti burokėliai",
+    "description": "500 g | 1 kg = 1,18 €",
+    "oldPrice": "0.79",
+    "priceEur": "0.59"
+  },
+  {
+    "category": "Zuikio daržas",
+    "title": "Dryžuotieji pomidorai „Premium“",
+    "description": "1 kg",
+    "oldPrice": "4.99",
+    "priceEur": "2.99"
+  },
+  {
+    "category": "Zuikio daržas",
+    "title": "Saldžiųjų paprikų rinkinys",
+    "description": "500 g | 1 kg = 3,38 €",
+    "oldPrice": "2.49",
+    "priceEur": "1.69"
+  },
+  {
+    "category": "Zuikio daržas",
+    "title": "Brokolis",
+    "description": "1 vnt.",
+    "oldPrice": "2.49",
+    "priceEur": "1.19"
+  },
+  {
+    "category": "Zuikio daržas",
+    "title": "Salota „Iceberg“",
+    "description": "1 vnt.",
+    "oldPrice": "1.79",
+    "priceEur": "0.99"
+  },
+  {
+    "category": "Zuikio daržas",
+    "title": "Salierų stiebai",
+    "description": "1 vnt.",
+    "oldPrice": "1.69",
+    "priceEur": "0.99"
+  },
+  {
+    "category": "Zuikio daržas",
+    "title": "Ridikėliai",
+    "description": "300 g | 1 kg = 2,97 €",
+    "oldPrice": "1.49",
+    "priceEur": "0.89"
+  },
+  {
+    "category": "Zuikio daržas",
+    "title": "Baklažanai",
+    "description": "1 kg",
+    "oldPrice": "3.99",
+    "priceEur": "1.99"
+  },
+  {
+    "category": "Zuikio daržas",
+    "title": "Saldžiosios bulvės",
+    "description": "1 kg",
+    "oldPrice": "2.99",
+    "priceEur": "1.69"
+  },
+  {
+    "category": "Zuikio daržas",
+    "title": "Cukinijos",
+    "description": "1 kg",
+    "oldPrice": "3.99",
+    "priceEur": "1.99"
+  },
+  {
+    "category": "Zuikio daržas",
+    "title": "Lietuviški svogūnų laiškai",
+    "description": "100 g | 1 kg = 8,90 €",
+    "oldPrice": "1.49",
+    "priceEur": "0.89"
+  },
+  {
+    "category": "Zuikio daržas",
+    "title": "Žiedinis kopūstas",
+    "description": "1 vnt.",
+    "oldPrice": "3.99",
+    "priceEur": "1.89"
+  },
+  {
+    "category": "Zuikio daržas",
+    "title": "Obuoliai „Granny Smith“",
+    "description": "1 kg",
+    "oldPrice": "2.49",
+    "priceEur": "1.69"
+  },
+  {
+    "category": "Zuikio daržas",
+    "title": "Pankolis",
+    "description": "1 vnt.",
+    "oldPrice": "1.39",
+    "priceEur": "0.79"
+  },
+  {
+    "category": "Zuikio daržas",
+    "title": "Violetiniai pomidorai",
+    "description": "1 kg",
+    "oldPrice": "4.99",
+    "priceEur": "3.49"
+  },
+  {
+    "category": "Zuikio daržas",
+    "title": "Smulkiavaisiai slyviniai pomidorai",
+    "description": "500 g | 1 kg = 3,58 €",
+    "oldPrice": "2.99",
+    "priceEur": "1.79"
+  },
+  {
+    "category": "Zuikio daržas",
+    "title": "Ekologiški pomidorai su šakelėmis",
+    "description": "500 g | 1 kg = 3,58 €",
+    "oldPrice": "2.99",
+    "priceEur": "1.79"
+  },
+  {
+    "category": "Zuikio daržas",
+    "title": "Vynuoginiai pomidorai su šakelėmis „Premium“",
+    "description": "300 g | 1 kg = 6,64 €",
+    "oldPrice": "3.49",
+    "priceEur": "1.99"
+  },
+  {
+    "category": "Po progą kasdien",
+    "title": "Šokoladinis batonėlis",
+    "description": "50 g | 1 kg = 8,40 € | Perkant 2 pak.",
+    "oldPrice": "0.85",
+    "priceEur": "0.42"
+  },
+  {
+    "category": "Po progą kasdien",
+    "title": "Juodasis šokoladas su nesmulkintais migdolais",
+    "description": "2 x 100 g | 1 kg = 5,95 €",
+    "oldPrice": "2.38",
+    "priceEur": "1.19"
+  },
+  {
+    "category": "Po progą kasdien",
+    "title": "Pieninis šokoladas su razinomis ir lazdynų riešutais",
+    "description": "2 x 100 g | 1 kg = 4,95 €",
+    "oldPrice": "1.98",
+    "priceEur": "0.99"
+  },
+  {
+    "category": "Čia LIDL - čia šviežia!",
+    "title": "Šviežia kalakutų krūtinėlės filė",
+    "description": "1 kg",
+    "oldPrice": "6.99",
+    "priceEur": "5.59"
+  },
+  {
+    "category": "Čia LIDL - čia šviežia!",
+    "title": "Šviežia smulkinta kiauliena ir jautiena",
+    "description": "500 g | 1 kg = 3,98 €",
+    "oldPrice": "2.65",
+    "priceEur": "1.99"
+  },
+  {
+    "category": "Čia LIDL - čia šviežia!",
+    "title": "Marinuota antis",
+    "description": "",
+    "oldPrice": "0",
+    "priceEur": "4.99"
+  },
+  {
+    "category": "Čia LIDL - čia šviežia!",
+    "title": "Brandintas jautienos didkepsnis",
+    "description": "1 kg",
+    "oldPrice": "19.99",
+    "priceEur": "14.99"
+  },
+  {
+    "category": "Vasario 16-oji",
+    "title": "Rūgpienis",
+    "description": "1 l",
+    "oldPrice": "1.69",
+    "priceEur": "1.35"
+  },
+  {
+    "category": "Vasario 16-oji",
+    "title": "Pusriebė varškė",
+    "description": "450 g | 1 kg = 5,31 €",
+    "oldPrice": "2.99",
+    "priceEur": "2.39"
+  },
+  {
+    "category": "Vasario 16-oji",
+    "title": "Kastinys",
+    "description": "140 g | 1 kg = 8,50 €",
+    "oldPrice": "1.49",
+    "priceEur": "1.19"
+  },
+  {
+    "category": "Vasario 16-oji",
+    "title": "Šaltai rūkyta kiaulienos nugarinė",
+    "description": "",
+    "oldPrice": "0",
+    "priceEur": "10.99"
+  },
+  {
+    "category": "Vasario 16-oji",
+    "title": "Virta „Kaimiška“ šaltiena",
+    "description": "1 kg = 3,30 €",
+    "oldPrice": "0",
+    "priceEur": "0.99"
+  },
+  {
+    "category": "Vasario 16-oji",
+    "title": "„Naminė“ duonos gira",
+    "description": "1 l",
+    "oldPrice": "1.59",
+    "priceEur": "1.25"
+  },
+  {
+    "category": "Vasario 16-oji",
+    "title": "Šaltai rūkyta elnienos dešra",
+    "description": "1 kg = 22,45 €",
+    "oldPrice": "0",
+    "priceEur": "4.49"
+  },
+  {
+    "category": "Vasario 16-oji",
+    "title": "Karštai rūkyta kiaulienos nugarinė",
+    "description": "",
+    "oldPrice": "0",
+    "priceEur": "11.99"
+  },
+  {
+    "category": "Vasario 16-oji",
+    "title": "Šaltai rūkytas kiaulienos kumpis",
+    "description": "1 kg",
+    "oldPrice": "10.99",
+    "priceEur": "8.79"
+  },
+  {
+    "category": "Vasario 16-oji",
+    "title": "Aguoniniai sausainiai",
+    "description": "1 kg = 11,16 €",
+    "oldPrice": "0",
+    "priceEur": "2.79"
+  },
+  {
+    "category": "Vasario 16-oji",
+    "title": "Migdoliniai sausainiai",
+    "description": "1 kg = 9,97 €",
+    "oldPrice": "0",
+    "priceEur": "2.99"
+  },
+  {
+    "category": "Vasario 16-oji",
+    "title": "Sausainiai „Smėlio juosta“",
+    "description": "1 kg = 5,65 €",
+    "oldPrice": "0",
+    "priceEur": "3.39"
+  },
+  {
+    "category": "Vasario 16-oji",
+    "title": "„Naminiai“ sausainiai",
+    "description": "1 kg = 4,63 €",
+    "oldPrice": "0",
+    "priceEur": "1.39"
+  },
+  {
+    "category": "Vasario 16-oji",
+    "title": "Šakotis „Sviestinukas“",
+    "description": "",
+    "oldPrice": "0",
+    "priceEur": "12.99"
+  },
+  {
+    "category": "Vasario 16-oji",
+    "title": "Sausainiai „Grybukai“",
+    "description": "1 kg = 12,63 €",
+    "oldPrice": "0",
+    "priceEur": "3.79"
+  },
+  {
+    "category": "Vasario 16-oji",
+    "title": "Varškės sūris",
+    "description": "400 g | 1 kg = 10,98 €",
+    "oldPrice": "5.49",
+    "priceEur": "4.39"
+  },
+  {
+    "category": "Vasario 16-oji",
+    "title": "Varškės sūris",
+    "description": "330 g | 1 kg = 10,88 €",
+    "oldPrice": "4.49",
+    "priceEur": "3.59"
+  },
+  {
+    "category": "Vasario 16-oji",
+    "title": "Lietuviškas medus",
+    "description": "700 g | 1 kg = 4,56 €",
+    "oldPrice": "3.99",
+    "priceEur": "3.19"
+  },
+  {
+    "category": "Visos šios savaitės akcijos",
+    "title": "Rūgpienis",
+    "description": "500 g | 1 kg = 1,58 €",
+    "oldPrice": "0.99",
+    "priceEur": "0.79"
+  },
+  {
+    "category": "Visos šios savaitės akcijos",
+    "title": "Kietasis sūris",
+    "description": "180 g | 1 kg = 11,06 €",
+    "oldPrice": "2.59",
+    "priceEur": "1.99"
+  },
+  {
+    "category": "Visos šios savaitės akcijos",
+    "title": "Jogurtas su vaisiais",
+    "description": "350 g | 1 kg = 1,97 €",
+    "oldPrice": "0.99",
+    "priceEur": "0.69"
+  },
+  {
+    "category": "Visos šios savaitės akcijos",
+    "title": "Plakamoji grietinėlė",
+    "description": "200 ml | 1 l = 4,25 €",
+    "oldPrice": "1.09",
+    "priceEur": "0.85"
+  },
+  {
+    "category": "Visos šios savaitės akcijos",
+    "title": "„Pilos“ varškės sūreliams net -20 %",
+    "description": "",
+    "oldPrice": "",
+    "priceEur": ""
+  },
+  {
+    "category": "Visos šios savaitės akcijos",
+    "title": "Virtos sardelės",
+    "description": "800 g | 1 kg = 3,74 €",
+    "oldPrice": "3.79",
+    "priceEur": "2.99"
+  },
+  {
+    "category": "Visos šios savaitės akcijos",
+    "title": "Virtos pieniškos dešrelės „XXL“",
+    "description": "750 g | 1 kg = 3,00 €",
+    "oldPrice": "2.85",
+    "priceEur": "2.25"
+  },
+  {
+    "category": "Visos šios savaitės akcijos",
+    "title": "Virta „Ponų“ dešra",
+    "description": "400 g | 1 kg = 3,88 €",
+    "oldPrice": "1.99",
+    "priceEur": "1.55"
+  },
+  {
+    "category": "Visos šios savaitės akcijos",
+    "title": "Karštai rūkytas servelatas",
+    "description": "300 g | 1 kg = 5,30 €",
+    "oldPrice": "1.99",
+    "priceEur": "1.59"
+  },
+  {
+    "category": "Visos šios savaitės akcijos",
+    "title": "Virta „Gardžioji“ kiaulienos dešra su lašinukais",
+    "description": "570 g | 1 kg = 3,49 €",
+    "oldPrice": "2.49",
+    "priceEur": "1.99"
+  },
+  {
+    "category": "Visos šios savaitės akcijos",
+    "title": "Virtas kepenų paštetas",
+    "description": "120 g | 1 kg = 2,42 €",
+    "oldPrice": "0.4",
+    "priceEur": "0.29"
+  },
+  {
+    "category": "Visos šios savaitės akcijos",
+    "title": "Virtas liežuvio vyniotinis",
+    "description": "",
+    "oldPrice": "0",
+    "priceEur": "5.99"
+  },
+  {
+    "category": "Išbandyk!",
+    "title": "Keptos pupelės čili padaže",
+    "description": "1 kg = 1,86 €",
+    "oldPrice": "0",
+    "priceEur": "0.79"
+  },
+  {
+    "category": "Išbandyk!",
+    "title": "Konservuotos ekologiškos raudonosios pupelės",
+    "description": "1 l = 2,33 € / 1 kg gryn. kiekio = 3,93 €",
+    "oldPrice": "0",
+    "priceEur": "0.99"
+  },
+  {
+    "category": "Išbandyk!",
+    "title": "Konservuoti žalieji žirneliai su morkomis",
+    "description": "1 l = 2,33 € / 1 kg gryn. kiekio = 3,93 €",
+    "oldPrice": "0",
+    "priceEur": "1.59"
+  },
+  {
+    "category": "Išbandyk!",
+    "title": "Juodosios alyvuogės be kauliukų",
+    "description": "1 l = 3,22 € / 1 kg gryn. kiekio = 7,93 €",
+    "oldPrice": "0",
+    "priceEur": "1.19"
+  },
+  {
+    "category": "Išbandyk!",
+    "title": "Sviestas be laktozės",
+    "description": "1 kg = 10,95 €",
+    "oldPrice": "0",
+    "priceEur": "2.19"
+  },
+  {
+    "category": "Išbandyk!",
+    "title": "Liesa varškė",
+    "description": "1 kg = 3,96 €",
+    "oldPrice": "0",
+    "priceEur": "0.99"
+  },
+  {
+    "category": "Mano duona",
+    "title": "Kišas su kumpiu ir sūriu",
+    "description": "1 kg = 16,90 €",
+    "oldPrice": "0",
+    "priceEur": "1.69"
+  },
+  {
+    "category": "Mano duona",
+    "title": "„Brioche“ bandelės",
+    "description": "200 g | 1 kg = 3,95 €",
+    "oldPrice": "1.09",
+    "priceEur": "0.79"
+  },
+  {
+    "category": "Mano duona",
+    "title": "Juoda duona su sėklomis",
+    "description": "400 g | 1 kg = 2,88 €",
+    "oldPrice": "1.45",
+    "priceEur": "1.15"
+  },
+  {
+    "category": "Mano duona",
+    "title": "Pikantiškas kibinas su daržovėmis",
+    "description": "4 x 105 g | 1 kg = 5,71 €",
+    "oldPrice": "3.2",
+    "priceEur": "2.4"
+  },
+  {
+    "category": "Mano duona",
+    "title": "Šviesi „Sumuštinių“ duona skrudinimu",
+    "description": "500 g | 1 kg = 1,98 €",
+    "oldPrice": "1.29",
+    "priceEur": "0.99"
+  },
+  {
+    "category": "Mano duona",
+    "title": "Šviesi „Močiutės“ duona",
+    "description": "1 kg = 3,09 €",
+    "oldPrice": "0",
+    "priceEur": "1.39"
+  },
+  {
+    "category": "Mano duona",
+    "title": "Spurga „KitKat“",
+    "description": "1 kg = 12,86 €",
+    "oldPrice": "0",
+    "priceEur": "0.99"
+  },
+  {
+    "category": "Mano duona",
+    "title": "Grikių miltų duona su graikiniais riešutais",
+    "description": "1 kg = 6,23 €",
+    "oldPrice": "0",
+    "priceEur": "2.49"
+  },
+  {
+    "category": "Mano duona",
+    "title": "Spurga su aguonomis ir varškės sūrio įdaru",
+    "description": "1 kg = 6,53 €",
+    "oldPrice": "0",
+    "priceEur": "0.49"
+  },
+  {
+    "category": "Kas pasakė MŪŪŪ",
+    "title": "Pieniškas lazdynų riešutų skonio desertas",
+    "description": "6 x 60 g | 1 kg = 2,64 €",
+    "oldPrice": "1.19",
+    "priceEur": "0.95"
+  },
+  {
+    "category": "Kas pasakė MŪŪŪ",
+    "title": "Saldus varškės desertas",
+    "description": "150 g | 1 kg = 5,67 €",
+    "oldPrice": "1.09",
+    "priceEur": "0.85"
+  },
+  {
+    "category": "Kas pasakė MŪŪŪ",
+    "title": "Fermentinis sūris riekelėmis „Gouda“",
+    "description": "1 kg = 11,27 €",
+    "oldPrice": "0",
+    "priceEur": "1.69"
+  },
+  {
+    "category": "Kas pasakė MŪŪŪ",
+    "title": "Maskarponė",
+    "description": "250 g | 1 kg = 7,16 €",
+    "oldPrice": "2.29",
+    "priceEur": "1.79"
+  },
+  {
+    "category": "Kas pasakė MŪŪŪ",
+    "title": "„Naminis“ kefyras",
+    "description": "1 kg = 1,32 €",
+    "oldPrice": "0",
+    "priceEur": "1.19"
+  },
+  {
+    "category": "Kas pasakė MŪŪŪ",
+    "title": "Žemaitiškas „Kastinys“",
+    "description": "1 kg = 9,45 €",
+    "oldPrice": "0",
+    "priceEur": "1.89"
+  },
+  {
+    "category": "Kas pasakė MŪŪŪ",
+    "title": "Varškė grūdeliais",
+    "description": "500 g | 1 kg = 2,58 €",
+    "oldPrice": "1.69",
+    "priceEur": "1.29"
+  },
+  {
+    "category": "„Vemondo“ produkcija",
+    "title": "Ekologiškas kokosų-ryžių gėrimas",
+    "description": "1 l",
+    "oldPrice": "1.69",
+    "priceEur": "1.59"
+  },
+  {
+    "category": "„Vemondo“ produkcija",
+    "title": "Ekologiškas migdolų gėrimas",
+    "description": "1 l",
+    "oldPrice": "1.99",
+    "priceEur": "1.59"
+  },
+  {
+    "category": "„Vemondo“ produkcija",
+    "title": "Ekologiškas ryžių gėrimas",
+    "description": "",
+    "oldPrice": "0",
+    "priceEur": "1.59"
+  },
+  {
+    "category": "„Vemondo“ produkcija",
+    "title": "Ekologiškas avižų gėrimas",
+    "description": "1 l",
+    "oldPrice": "1.69",
+    "priceEur": "1.59"
+  },
+  {
+    "category": "„Vemondo“ produkcija",
+    "title": "Ekologiškas sojų gėrimas",
+    "description": "",
+    "oldPrice": "0",
+    "priceEur": "1.59"
+  },
+  {
+    "category": "Šaltai ir ilgai",
+    "title": "Gruzdintos bulvytės „XXL“",
+    "description": "1 kg = 1,34 €",
+    "oldPrice": "0",
+    "priceEur": "4.69"
+  },
+  {
+    "category": "Šaltai ir ilgai",
+    "title": "Silkės filė „Matjes“",
+    "description": "1 kg = 14,26 €",
+    "oldPrice": "0",
+    "priceEur": "4.99"
+  },
+  {
+    "category": "Šaltai ir ilgai",
+    "title": "Šaldytos krevetės be kiauto",
+    "description": "200 g / gryn. kiekis 180 g | 1 kg grynojo kiekio = 16,61 € | 1 kg = 14,95 €",
+    "oldPrice": "3.99",
+    "priceEur": "2.99"
+  },
+  {
+    "category": "Šaltai ir ilgai",
+    "title": "Tortas",
+    "description": "1 kg = 14,98 €",
+    "oldPrice": "0",
+    "priceEur": "5.99"
+  },
+  {
+    "category": "Mėsininko sapnas",
+    "title": "Dešrelės",
+    "description": "250 g | 1 kg = 5,00 €",
+    "oldPrice": "2.49",
+    "priceEur": "1.25"
+  },
+  {
+    "category": "Mėsininko sapnas",
+    "title": "Šaltai rūkyta dešra",
+    "description": "1 kg = 13,70 €",
+    "oldPrice": "0",
+    "priceEur": "3.15"
+  },
+  {
+    "category": "Mėsininko sapnas",
+    "title": "„Vytauto“ vytinta dešra",
+    "description": "1 kg = 14,25 €",
+    "oldPrice": "0",
+    "priceEur": "2.85"
+  },
+  {
+    "category": "Mėsininko sapnas",
+    "title": "Trumų skonio elnienos dešra",
+    "description": "1 kg = 15,61 €",
+    "oldPrice": "0",
+    "priceEur": "3.59"
+  },
+  {
+    "category": "Mėsininko sapnas",
+    "title": "Trikampis sumuštinis su poliarine duona",
+    "description": "130 / 155 / 165 g | 1 kg = 12,23 / 10,26 / 9,64 €",
+    "oldPrice": "2.29",
+    "priceEur": "1.59"
+  },
+  {
+    "category": "Mėsininko sapnas",
+    "title": "„Kyjivo“ kotletai „XXL“",
+    "description": "1 kg = 9,59 €",
+    "oldPrice": "0",
+    "priceEur": "7.45"
+  },
+  {
+    "category": "Mėsininko sapnas",
+    "title": "Kepenų paštetas su svogūnais",
+    "description": "1 kg = 6,60 €",
+    "oldPrice": "0",
+    "priceEur": "0.99"
+  },
+  {
+    "category": "Mėsininko sapnas",
+    "title": "Virta „Daktariška“ dešra",
+    "description": "1 kg = 4,75 €",
+    "oldPrice": "0",
+    "priceEur": "2.85"
+  },
+  {
+    "category": "Mėsininko sapnas",
+    "title": "Kepta vištienos krūtinėlės filė",
+    "description": "75 g | 1 kg = 9,20 €",
+    "oldPrice": "0.89",
+    "priceEur": "0.69"
+  },
+  {
+    "category": "Žvejo puota",
+    "title": "Šviežia alpinė šalvis",
+    "description": "",
+    "oldPrice": "0",
+    "priceEur": "6.99"
+  },
+  {
+    "category": "Žvejo puota",
+    "title": "Šviežios virtos baltakojės blyškiosios krevetės",
+    "description": "350 g | 1 kg = 9,97 €",
+    "oldPrice": "4.89",
+    "priceEur": "3.49"
+  },
+  {
+    "category": "Žvejo puota",
+    "title": "Šviežia smulkinta karšio filė",
+    "description": "1 kg = 6,98 €",
+    "oldPrice": "0",
+    "priceEur": "3.49"
+  },
+  {
+    "category": "Žvejo puota",
+    "title": "Atlantinių silkių suktinukai",
+    "description": "1 kg grynojo kiekio = 11,96 € | 1 kg = 5,98 €",
+    "oldPrice": "0",
+    "priceEur": "2.99"
+  },
+  {
+    "category": "Žvejo puota",
+    "title": "Atlantinės lašišos paplotėliai",
+    "description": "1 kg = 13,46 €",
+    "oldPrice": "0",
+    "priceEur": "1.75"
+  },
+  {
+    "category": "Žvejo puota",
+    "title": "Silkių filė be aliejaus",
+    "description": "150 g | 1 kg = 5,93 €",
+    "oldPrice": "1.15",
+    "priceEur": "0.89"
+  },
+  {
+    "category": "Žvejo puota",
+    "title": "Sūdyti atlantinių silkių filė gabaliukai",
+    "description": "480 g | 1 kg = 4,98 €",
+    "oldPrice": "2.99",
+    "priceEur": "2.39"
+  },
+  {
+    "category": "Šeimos stalui",
+    "title": "Sušių rinkinys „Maki“",
+    "description": "1 kg = 14,26 €",
+    "oldPrice": "0",
+    "priceEur": "5.99"
+  },
+  {
+    "category": "Šeimos stalui",
+    "title": "Burokėliai obuolių sultyse",
+    "description": "1 kg grynojo kiekio = 3,96 € | 1 kg = 2,19 €",
+    "oldPrice": "0",
+    "priceEur": "1.05"
+  },
+  {
+    "category": "Šeimos stalui",
+    "title": "„Lietuviškas senųjų tradicijų“ pomidorų padažas",
+    "description": "1 kg = 3,31 €",
+    "oldPrice": "0",
+    "priceEur": "1.59"
+  },
+  {
+    "category": "Šeimos stalui",
+    "title": "Trinti pomidorai",
+    "description": "1 l = 2,21 €",
+    "oldPrice": "0",
+    "priceEur": "1.59"
+  },
+  {
+    "category": "Šeimos stalui",
+    "title": "Korėjietiškos morkos",
+    "description": "1 kg = 3,98 €",
+    "oldPrice": "0",
+    "priceEur": "1.59"
+  },
+  {
+    "category": "Šeimos stalui",
+    "title": "Rauginti agurkai",
+    "description": "700 g / gryn. kiekis 400 g | 1 kg grynojo kiekio = 3,48 € | 1 kg = 1,99 €",
+    "oldPrice": "1.79",
+    "priceEur": "1.39"
+  },
+  {
+    "category": "Šeimos stalui",
+    "title": "Mėsainių padažas",
+    "description": "1 kg = 6,88 €",
+    "oldPrice": "0",
+    "priceEur": "2.75"
+  },
+  {
+    "category": "Šeimos stalui",
+    "title": "Perlinis kuskusas",
+    "description": "1 kg = 4,63 €",
+    "oldPrice": "0",
+    "priceEur": "1.39"
+  },
+  {
+    "category": "Šeimos stalui",
+    "title": "„Naminiai“ krienai",
+    "description": "1 kg = 5,16 €",
+    "oldPrice": "0",
+    "priceEur": "1.29"
+  },
+  {
+    "category": "Šeimos stalui",
+    "title": "„Walmark“ maisto papildai",
+    "description": "",
+    "oldPrice": "0",
+    "priceEur": "2.69"
+  },
+  {
+    "category": "Užgavėnėms",
+    "title": "Kvietiniai miltai",
+    "description": "2 kg | 1 kg = 0,65 €",
+    "oldPrice": "1.79",
+    "priceEur": "1.29"
+  },
+  {
+    "category": "Užgavėnėms",
+    "title": "Klevų sirupas",
+    "description": "1 l = 23,00 €",
+    "oldPrice": "0",
+    "priceEur": "5.75"
+  },
+  {
+    "category": "Užgavėnėms",
+    "title": "Amerikietiško stiliaus blynai",
+    "description": "1 kg = 6,63 €",
+    "oldPrice": "0",
+    "priceEur": "1.99"
+  },
+  {
+    "category": "Užgavėnėms",
+    "title": "Rudasis cukrus",
+    "description": "Perkant 2 vnt. | 500 g | 1 kg = 1,58 €",
+    "oldPrice": "1.59",
+    "priceEur": "0.79"
+  },
+  {
+    "category": "Užgavėnėms",
+    "title": "Ekologiškas džemas",
+    "description": "260 g | 1 kg = 5,35 €",
+    "oldPrice": "2.59",
+    "priceEur": "1.79"
+  },
+  {
+    "category": "Užgavėnėms",
+    "title": "Aliumininė keptuvė",
+    "description": "",
+    "oldPrice": "0",
+    "priceEur": "19.99"
+  },
+  {
+    "category": "Užgavėnėms",
+    "title": "Saulėgrąžų aliejus",
+    "description": "1 l",
+    "oldPrice": "1.37",
+    "priceEur": "1.09"
+  },
+  {
+    "category": "Paplepėkim, aš klausau",
+    "title": "Energinis gėrimas",
+    "description": "500 ml | 1 l = 1,98 €",
+    "oldPrice": "1.49",
+    "priceEur": "0.99"
+  },
+  {
+    "category": "Paplepėkim, aš klausau",
+    "title": "Negazuotas mineralinis vanduo",
+    "description": "1,5 l",
+    "oldPrice": "0.79",
+    "priceEur": "0.45"
+  },
+  {
+    "category": "Paplepėkim, aš klausau",
+    "title": "Kavos gėrimas „3in1 Caramel“",
+    "description": "1 kg = 2,65 €",
+    "oldPrice": "0",
+    "priceEur": "1.59"
+  },
+  {
+    "category": "Paplepėkim, aš klausau",
+    "title": "Įvairių vaisių nektaras",
+    "description": "",
+    "oldPrice": "0",
+    "priceEur": "1.15"
+  },
+  {
+    "category": "Paplepėkim, aš klausau",
+    "title": "Gaivusis gėrimas su vitaminais",
+    "description": "1 l = 1,60 €",
+    "oldPrice": "0",
+    "priceEur": "0.89"
+  },
+  {
+    "category": "Paplepėkim, aš klausau",
+    "title": "Duonos gira",
+    "description": "1 l = 1,30 €",
+    "oldPrice": "0",
+    "priceEur": "0.65"
+  },
+  {
+    "category": "Paplepėkim, aš klausau",
+    "title": "Tirpioji kava „Gold“",
+    "description": "1 kg = 37,95 €",
+    "oldPrice": "0",
+    "priceEur": "7.59"
+  },
+  {
+    "category": "Paplepėkim, aš klausau",
+    "title": "Gazuotas gaivusis gėrimas",
+    "description": "1 l = 0,43 €",
+    "oldPrice": "0",
+    "priceEur": "0.85"
+  },
+  {
+    "category": "Smaližių salelė",
+    "title": "Šokoladas",
+    "description": "95 / 100 g | 1 kg = 11,47 / 10,90 €",
+    "oldPrice": "1.79",
+    "priceEur": "1.09"
+  },
+  {
+    "category": "Smaližių salelė",
+    "title": "Džiovinti cukruoti imbierai",
+    "description": "1 kg = 9,95 €",
+    "oldPrice": "0",
+    "priceEur": "1.99"
+  },
+  {
+    "category": "Smaližių salelė",
+    "title": "Džiovintos natūralių duonvaisių riekelės",
+    "description": "1 kg = 17,93 €",
+    "oldPrice": "0",
+    "priceEur": "2.69"
+  },
+  {
+    "category": "Smaližių salelė",
+    "title": "Traškus žemės riešutų kremas",
+    "description": "300 g | 1 kg = 6,63 €",
+    "oldPrice": "2.99",
+    "priceEur": "1.99"
+  },
+  {
+    "category": "Smaližių salelė",
+    "title": "Šokoladiniai saldainiai",
+    "description": "250 g | 1 kg = 6,36 €",
+    "oldPrice": "1.99",
+    "priceEur": "1.59"
+  },
+  {
+    "category": "Smaližių salelė",
+    "title": "Baltasis šokoladas",
+    "description": "1 kg = 7,75 €",
+    "oldPrice": "0",
+    "priceEur": "1.55"
+  },
+  {
+    "category": "Smaližių salelė",
+    "title": "Pieninis šokoladas",
+    "description": "1 kg = 5,63 €",
+    "oldPrice": "0",
+    "priceEur": "1.69"
+  },
+  {
+    "category": "Smaližių salelė",
+    "title": "Šokoladinių saldainių rinkinys",
+    "description": "400 g | 1 kg = 5,73 €",
+    "oldPrice": "2.89",
+    "priceEur": "2.29"
+  },
+  {
+    "category": "Smaližių salelė",
+    "title": "Džiūvėsėliai",
+    "description": "1 kg = 7,18 €",
+    "oldPrice": "0",
+    "priceEur": "0.79"
+  },
+  {
+    "category": "Visos šios savaitės akcijos",
+    "title": "Fermentinis sūris",
+    "description": "200 g | 1 kg = 6,20 €",
+    "oldPrice": "1.99",
+    "priceEur": "1.24"
+  },
+  {
+    "category": "Visos šios savaitės akcijos",
+    "title": "Malta kava „Presidentti Original“",
+    "description": "500 g | 1 kg = 8,98 €",
+    "oldPrice": "6.99",
+    "priceEur": "4.49"
+  },
+  {
+    "category": "Visos šios savaitės akcijos",
+    "title": "Ilgavaisis agurkas",
+    "description": "1 vnt.",
+    "oldPrice": "1.29",
+    "priceEur": "0.69"
+  },
+  {
+    "category": "Visos šios savaitės akcijos",
+    "title": "Slyviniai pomidorai",
+    "description": "1 kg",
+    "oldPrice": "2.99",
+    "priceEur": "1.49"
+  },
+  {
+    "category": "Visos šios savaitės akcijos",
+    "title": "Švieži kiaulienos šonkauliai",
+    "description": "1 kg",
+    "oldPrice": "5.99",
+    "priceEur": "3.99"
+  },
+  {
+    "category": "Nuo šio ketvirtadienio",
+    "title": "Šaltai rūkytas kiaulienos kumpis „XXL“",
+    "description": "1 kg = 12,46 €",
+    "oldPrice": "0",
+    "priceEur": "3.49"
+  },
+  {
+    "category": "Nuo šio ketvirtadienio",
+    "title": "Virtas kiaulienos slėgtainis",
+    "description": "1 kg = 4,54 €",
+    "oldPrice": "0",
+    "priceEur": "1.59"
+  },
+  {
+    "category": "Nuo šio ketvirtadienio",
+    "title": "Lazanija „Bolognese“ su kiauliena",
+    "description": "1 kg",
+    "oldPrice": "5.45",
+    "priceEur": "4.19"
+  },
+  {
+    "category": "Nuo šio ketvirtadienio",
+    "title": "Brandintas „Švarcvaldo“ kumpis",
+    "description": "100 g | 1 kg = 13,90 €",
+    "oldPrice": "1.99",
+    "priceEur": "1.39"
+  },
+  {
+    "category": "Nuo šio ketvirtadienio",
+    "title": "Vytintos arba šaltai rūkytos kiaulienos dešrelės",
+    "description": "150 g | 1 kg = 14,80 €",
+    "oldPrice": "2.79",
+    "priceEur": "2.22"
+  },
+  {
+    "category": "Nuo šio ketvirtadienio",
+    "title": "Šaltai rūkyta pjaustyta kiaulienos nugarinė",
+    "description": "100 g | 1 kg = 9,90 €",
+    "oldPrice": "1.29",
+    "priceEur": "0.99"
+  },
+  {
+    "category": "Nuo šio ketvirtadienio",
+    "title": "Pienas UAT",
+    "description": "",
+    "oldPrice": "0",
+    "priceEur": "0.85"
+  },
+  {
+    "category": "Nuo šio ketvirtadienio",
+    "title": "Kavos gėrimas „2in1“",
+    "description": "140 g | 1 kg = 0,82 €",
+    "oldPrice": "1.49",
+    "priceEur": "1.19"
+  },
+  {
+    "category": "Paskanauk pasaulio su „Alpen Fest“",
+    "title": "Pjaustytas sūris",
+    "description": "1 kg = 13,09 €",
+    "oldPrice": "0",
+    "priceEur": "2.29"
+  },
+  {
+    "category": "Paskanauk pasaulio su „Alpen Fest“",
+    "title": "Marinuota virta kiaulienos karka",
+    "description": "1 kg = 7,48 €",
+    "oldPrice": "0",
+    "priceEur": "4.49"
+  },
+  {
+    "category": "Paskanauk pasaulio su „Alpen Fest“",
+    "title": "Vienos šnicelis",
+    "description": "1 kg = 9,32 €",
+    "oldPrice": "0",
+    "priceEur": "6.99"
+  },
+  {
+    "category": "Paskanauk pasaulio su „Alpen Fest“",
+    "title": "Lydyto sūrio gaminys",
+    "description": "1 kg = 11,96 €",
+    "oldPrice": "0",
+    "priceEur": "2.99"
+  },
+  {
+    "category": "Paskanauk pasaulio su „Alpen Fest“",
+    "title": "Džemas",
+    "description": "1 kg = 5,98 €",
+    "oldPrice": "0",
+    "priceEur": "2.69"
+  },
+  {
+    "category": "Paskanauk pasaulio su „Alpen Fest“",
+    "title": "Minkštasis sūris",
+    "description": "1 kg = 12,45 €",
+    "oldPrice": "0",
+    "priceEur": "2.49"
+  },
+  {
+    "category": "Paskanauk pasaulio su „Alpen Fest“",
+    "title": "Sūrio gaminys „Obazda“",
+    "description": "1 kg = 16,60 €",
+    "oldPrice": "0",
+    "priceEur": "2.49"
+  },
+  {
+    "category": "Paskanauk pasaulio su „Alpen Fest“",
+    "title": "Kiaulienos kumpių rinkinys",
+    "description": "1 kg = 16,61 €",
+    "oldPrice": "0",
+    "priceEur": "2.99"
+  },
+  {
+    "category": "Paskanauk pasaulio su „Alpen Fest“",
+    "title": "Šaltai rūkytas kiaulienos kumpis",
+    "description": "",
+    "oldPrice": "0",
+    "priceEur": "15.99"
+  },
+  {
+    "category": "Paskanauk pasaulio su „Alpen Fest“",
+    "title": "Šaltai rūkytos kiaulienos dešrelės",
+    "description": "1 kg = 15,96 €",
+    "oldPrice": "0",
+    "priceEur": "3.99"
+  },
+  {
+    "category": "Paskanauk pasaulio su „Alpen Fest“",
+    "title": "Kiaušininiai virtiniai",
+    "description": "1 kg = 7,96 €",
+    "oldPrice": "0",
+    "priceEur": "1.99"
+  },
+  {
+    "category": "Paskanauk pasaulio su „Alpen Fest“",
+    "title": "Makaronai ir kubeliais pjaustytos bulvės",
+    "description": "1 kg = 7,48 €",
+    "oldPrice": "0",
+    "priceEur": "2.99"
+  },
+  {
+    "category": "Paskanauk pasaulio su „Alpen Fest“",
+    "title": "Kiaušininiai makaronai",
+    "description": "1 kg = 3,98 €",
+    "oldPrice": "0",
+    "priceEur": "1.99"
+  },
+  {
+    "category": "Paskanauk pasaulio su „Alpen Fest“",
+    "title": "Apkepta perlenkta pica",
+    "description": "1 kg = 9,69 €",
+    "oldPrice": "0",
+    "priceEur": "3.49"
+  },
+  {
+    "category": "Paskanauk pasaulio su „Alpen Fest“",
+    "title": "Sūrio užkandis",
+    "description": "1 kg = 13,96 €",
+    "oldPrice": "0",
+    "priceEur": "3.49"
+  },
+  {
+    "category": "Paskanauk pasaulio su „Alpen Fest“",
+    "title": "Šveicariško stiliaus bulvinis blynas „Rösti“",
+    "description": "1 kg = 5,98 €",
+    "oldPrice": "0",
+    "priceEur": "2.99"
+  },
+  {
+    "category": "Paskanauk pasaulio su „Alpen Fest“",
+    "title": "Pica „Tartiflette“",
+    "description": "1 kg = 7,76 €",
+    "oldPrice": "0",
+    "priceEur": "3.49"
+  },
+  {
+    "category": "Paskanauk pasaulio su „Alpen Fest“",
+    "title": "Kiaulienos kepsneliai",
+    "description": "1 kg = 11,23 / 8,98 €",
+    "oldPrice": "0",
+    "priceEur": "4.49"
+  },
+  {
+    "category": "Paskanauk pasaulio su „Alpen Fest“",
+    "title": "Aliaskinių menkių filė",
+    "description": "1 kg = 11,96 €",
+    "oldPrice": "0",
+    "priceEur": "2.99"
+  },
+  {
+    "category": "Paskanauk pasaulio su „Alpen Fest“",
+    "title": "Vištienos krūtinėlių kepsneliai",
+    "description": "1 kg = 8,98 €",
+    "oldPrice": "0",
+    "priceEur": "4.49"
+  },
+  {
+    "category": "Paskanauk pasaulio su „Alpen Fest“",
+    "title": "Vienos šnicelis",
+    "description": "1 kg = 9,32 €",
+    "oldPrice": "0",
+    "priceEur": "6.99"
+  },
+  {
+    "category": "Paskanauk pasaulio su „Alpen Fest“",
+    "title": "Miuncheno dešrelės su saldžiomis garstyčiomis",
+    "description": "1 kg = 9,37 €",
+    "oldPrice": "0",
+    "priceEur": "3.29"
+  },
+  {
+    "category": "Paskanauk pasaulio su „Alpen Fest“",
+    "title": "Virtos kiaulienos dešrelės",
+    "description": "1 kg grynojo kiekio = 10,25 € | 1 kg = 6,71 €",
+    "oldPrice": "0",
+    "priceEur": "3.69"
+  },
+  {
+    "category": "Paskanauk pasaulio su „Alpen Fest“",
+    "title": "Virtos rūkytos kiaulienos dešrelės",
+    "description": "1 kg = 9,97 €",
+    "oldPrice": "0",
+    "priceEur": "3.49"
+  },
+  {
+    "category": "Paskanauk pasaulio su „Alpen Fest“",
+    "title": "Virtos kepamosios dešrelės",
+    "description": "1 kg = 9,98 €",
+    "oldPrice": "0",
+    "priceEur": "3.99"
+  },
+  {
+    "category": "Paskanauk pasaulio su „Alpen Fest“",
+    "title": "Sūrūs sausainėliai šokolade",
+    "description": "1 kg = 14,21 €",
+    "oldPrice": "0",
+    "priceEur": "1.99"
+  },
+  {
+    "category": "Paskanauk pasaulio su „Alpen Fest“",
+    "title": "Sausainiai",
+    "description": "1 kg = 19,90 €",
+    "oldPrice": "0",
+    "priceEur": "1.99"
+  },
+  {
+    "category": "Paskanauk pasaulio su „Alpen Fest“",
+    "title": "Duonos lazdelės",
+    "description": "1 kg = 17,27 €",
+    "oldPrice": "0",
+    "priceEur": "2.59"
+  },
+  {
+    "category": "Paskanauk pasaulio su „Alpen Fest“",
+    "title": "Sūrių lazdelių ir riestainėlių rinkinys",
+    "description": "1 kg = 6,63 €",
+    "oldPrice": "0",
+    "priceEur": "1.99"
+  },
+  {
+    "category": "Paskanauk pasaulio su „Alpen Fest“",
+    "title": "Sausainiai",
+    "description": "1 kg = 15,31 €",
+    "oldPrice": "0",
+    "priceEur": "1.99"
+  },
+  {
+    "category": "Paskanauk pasaulio su „Alpen Fest“",
+    "title": "Skrudinti cukruoti riešutai",
+    "description": "1 kg = 11,45 €",
+    "oldPrice": "0",
+    "priceEur": "2.29"
+  },
+  {
+    "category": "Paskanauk pasaulio su „Alpen Fest“",
+    "title": "Trupininis pyragas",
+    "description": "1 kg = 3,83 €",
+    "oldPrice": "0",
+    "priceEur": "4.79"
+  },
+  {
+    "category": "Paskanauk pasaulio su „Alpen Fest“",
+    "title": "Tortas „Zacherio“",
+    "description": "1 kg = 13,98 €",
+    "oldPrice": "0",
+    "priceEur": "6.99"
+  },
+  {
+    "category": "Paskanauk pasaulio su „Alpen Fest“",
+    "title": "Štrudelis su obuolių įdaru",
+    "description": "1 kg = 7,97 €",
+    "oldPrice": "0",
+    "priceEur": "2.99"
+  },
+  {
+    "category": "Paskanauk pasaulio su „Alpen Fest“",
+    "title": "Karštai rūkytas saliamis",
+    "description": "",
+    "oldPrice": "0",
+    "priceEur": "22.99"
+  },
+  {
+    "category": "Paskanauk pasaulio su „Alpen Fest“",
+    "title": "Majonezas su citrinų sultimis",
+    "description": "1 l = 3,78 €",
+    "oldPrice": "0",
+    "priceEur": "1.89"
+  },
+  {
+    "category": "Paskanauk pasaulio su „Alpen Fest“",
+    "title": "Gruzdintos bulvytės „XXL“",
+    "description": "1 kg = 1,34 €",
+    "oldPrice": "0",
+    "priceEur": "4.69"
+  },
+  {
+    "category": "Paskanauk pasaulio su „Alpen Fest“",
+    "title": "Virtos midijos be kiautų",
+    "description": "1 kg = 11,96 €",
+    "oldPrice": "0",
+    "priceEur": "2.99"
+  },
+  {
+    "category": "Paskanauk pasaulio su „Alpen Fest“",
+    "title": "Desertas",
+    "description": "1 kg = 21,58 €",
+    "oldPrice": "0",
+    "priceEur": "2.59"
+  },
+  {
+    "category": "Paskanauk pasaulio su „Alpen Fest“",
+    "title": "Pyragėliai",
+    "description": "1 kg = 16,61 €",
+    "oldPrice": "0",
+    "priceEur": "2.99"
+  },
+  {
+    "category": "Paskanauk pasaulio su „Alpen Fest“",
+    "title": "Sausainiai",
+    "description": "1 kg = 3,98 €",
+    "oldPrice": "0",
+    "priceEur": "1.99"
+  },
+  {
+    "category": "Paskanauk pasaulio su „Alpen Fest“",
+    "title": "Sausainiai „Macarons“",
+    "description": "1 kg = 25,58 €",
+    "oldPrice": "0",
+    "priceEur": "3.99"
+  },
+  {
+    "category": "Paskanauk pasaulio su „Alpen Fest“",
+    "title": "Sausainių vafliai",
+    "description": "1 kg = 9,92 €",
+    "oldPrice": "0",
+    "priceEur": "2.49"
+  },
+  {
+    "category": "Paskanauk pasaulio su „Alpen Fest“",
+    "title": "Sviestiniai vafliai",
+    "description": "1 kg = 11,40 €",
+    "oldPrice": "0",
+    "priceEur": "3.99"
+  },
+  {
+    "category": "Paskanauk pasaulio su „Alpen Fest“",
+    "title": "Sausainių kremas",
+    "description": "1 kg = 6,23 €",
+    "oldPrice": "0",
+    "priceEur": "2.49"
+  },
+  {
+    "category": "Paskanauk pasaulio su „Alpen Fest“",
+    "title": "Valgomieji ledai",
+    "description": "1 kg = 6,25 €",
+    "oldPrice": "0",
+    "priceEur": "4.69"
+  },
+  {
+    "category": "Paskanauk pasaulio su „Alpen Fest“",
+    "title": "Sviestinis obuolių pyragas",
+    "description": "1 kg = 4,54 €",
+    "oldPrice": "0",
+    "priceEur": "4.99"
+  },
+  {
+    "category": "Paskanauk pasaulio su „Alpen Fest“",
+    "title": "Pica „Amsterdam“",
+    "description": "1 kg = 8,51 €",
+    "oldPrice": "0",
+    "priceEur": "3.49"
+  },
+  {
+    "category": "Paskanauk pasaulio su „Alpen Fest“",
+    "title": "Olandiškas sūris",
+    "description": "1 kg = 19,12 €",
+    "oldPrice": "0",
+    "priceEur": "2.39"
+  },
+  {
+    "category": "Paskanauk pasaulio su „Alpen Fest“",
+    "title": "Padažas",
+    "description": "1 l = 6,60 €",
+    "oldPrice": "0",
+    "priceEur": "4.29"
+  }
+]

@@ -6,17 +6,32 @@ from bs4 import BeautifulSoup, Tag
 import firebase_admin
 from firebase_admin import credentials, db
 
+def delete_collection(coll_ref, batch_size):
+    docs = coll_ref.list_documents(page_size=batch_size)
+    deleted = 0
+
+    for doc in docs:
+        doc.delete()
+        deleted = deleted + 1
+
+    if deleted >= batch_size:
+        return delete_collection(coll_ref, batch_size)
+    
+
+
 cred = credentials.Certificate(
-    "C:\\Users\\tager\\Desktop\\scrap\\service-key.json")
+    # Windows
+    # "C:\\Users\\tager\\Desktop\\scrap\\service-key.json"
+    # MAC
+    "/Users/vaidas/Documents/scrape/service-key.json"
+)
 firebase_admin.initialize_app(cred, {
     'databaseURL': 'https://akcijoslt-8862e-default-rtdb.europe-west1.firebasedatabase.app/'
 })
-doc_ref = db.reference("/maxima")
 
+doc_ref = db.reference("/maxima")
 doc_ref.delete()
-
 doc_ref = db.reference("/maxima")
-
 
 URL = "https://www.maxima.lt/akcijos"
 headers = {
@@ -82,6 +97,5 @@ for section in sections.findAll('section'):
                 doc_ref.push(product)
 
 # json_object = json.dumps(products, ensure_ascii=False, indent=2)
-
 # with open('maxima.json', 'w', encoding='utf-8') as f:
 #     f.write(json_object)
