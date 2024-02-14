@@ -16,9 +16,9 @@ firebase_admin.initialize_app(cred, {
     'databaseURL': 'https://akcijoslt-8862e-default-rtdb.europe-west1.firebasedatabase.app/'
 })
 
-doc_ref = db.reference("/maxima")
-doc_ref.delete()
-doc_ref = db.reference("/maxima")
+# doc_ref = db.reference("/maxima")
+# doc_ref.delete()
+# doc_ref = db.reference("/maxima")
 
 URL = "https://www.maxima.lt/akcijos"
 headers = {
@@ -87,7 +87,7 @@ for section in sections.findAll('section'):
 
                 products.append(product)
                 recipeProducts.append(recipeProduct)
-                doc_ref.push(product)
+                # doc_ref.push(product)
 
 json_object = json.dumps(recipeProducts, ensure_ascii=False, indent=2)
 with open('maxima-recipes-data.json', 'w', encoding='utf-8') as f:

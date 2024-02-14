@@ -18,65 +18,107 @@ firebase_admin.initialize_app(cred, {
 # Your JSON data
 data = [
     {
-      "name": "Braškių ir špinatų salotos",
-      "ingredients": ["Braškės", "Ledinių salotų", "Dryžuotieji pomidorai"],
-      "process": "Supjaustykite braškes ir pomidorus. Sumaišykite su plėšytomis ledinėmis salotų lapais. Padažui naudokite lengvą vyno acto ir aliejaus užpilą.",
-      "cost": "5.97 EUR"
+        "name": "Spaghetti Carbonara",
+        "ingredients": ["spaghetti", "kiaulienos šoninė", "kiaušiniai", "parmezano sūris", "juodieji pipirai"],
+        "process": "Išvirkite spaghetti. Kiaulienos šoninę apkepinkite, sumaišykite su kiaušiniais, parmezano sūriu ir pipirais. Sumaišykite su makaronais.",
+        "average_cost": "5"
     },
     {
-      "name": "Grilintos vištienos su keptomis daržovėmis",
-      "ingredients": ["Vištienos ketvirčiai", "Brokolis", "Spalvotųjų paprikų mišinys", "Baklažanai", "Saldžiosios bulvės"],
-      "process": "Grilinkite vištieną. Kepkite supjaustytas daržoves su alyvuogių aliejumi ir prieskoniais iki suminkštėjimo.",
-      "cost": "10.65 EUR"
+        "name": "Pizza Margherita",
+        "ingredients": ["pica padas", "pomidorų padažas", "mozzarella sūris", "bazilikai", "alyvuogių aliejus"],
+        "process": "Iškočiokite picos padą, patepkite pomidorų padažu, užberkite mozzarella sūriu, bazilikais ir aptilkite alyvuogių aliejumi. Kepkite 10-12 minučių.",
+        "average_cost": "7"
     },
     {
-      "name": "Vegetariškas troškinys",
-      "ingredients": ["Brokolis", "Baklažanai", "Dryžuotieji pomidorai", "Raudonosios saldžiosios paprikos"],
-      "process": "Troškinkite daržoves keptuvėje su sojos padažu ir česnaku. Patiekite su rudaisiais ryžiais arba kinoą.",
-      "cost": "7.64 EUR"
+        "name": "Paella",
+        "ingredients": ["ryžiai", "vištienos gabaliukai", "jūros gėrybės", "žaliosios žirneliai", "raudonieji paprikos", "ciberžolė"],
+        "process": "Vištieną ir jūros gėrybes apkepinkite, pridėkite ryžius, žaliuosius žirnelius, paprikas ir ciberžolę. Troškinkite iki ryžių suminkštėjimo.",
+        "average_cost": "10"
     },
     {
-      "name": "Kepta lašiša su garintomis daržovėmis",
-      "ingredients": ["Lašiša", "Brokolis", "Morkos", "Fenkelis"],
-      "process": "Kepkite lašišos filė su citrina ir krapais. Garinkite brokolį, supjaustytas morkas ir fenkelį iki suminkštėjimo.",
-      "cost": "Priklauso nuo lašišos kainos"
+        "name": "Lasagne",
+        "ingredients": ["lasanjos lakštai", "malta mėsa", "pomidorų padažas", "bešamelio padažas", "parmezano sūris"],
+        "process": "Kaitinkite orkaitę. Paruoškite maltos mėsos ir pomidorų padažą. Kiekvieną lasanjos sluoksnį patepkite mėsos padažu, bešamelio padažu ir parmezano sūriu. Kepkite 30 minučių.",
+        "average_cost": "8"
     },
     {
-      "name": "Sveikos vištienos salotos",
-      "ingredients": ["Vištienos ketvirčiai", "Ledinių salotų", "Obuoliai 'Granny Smith'", "Saliero stiebai"],
-      "process": "Išvirkite ir suplėšykite vištieną. Sumaišykite su supjaustytomis salotomis, obuoliais ir salieru. Padažui naudokite graikišką jogurtą.",
-      "cost": "6.18 EUR"
+        "name": "Bruschetta",
+        "ingredients": ["batonas", "pomidorai", "česnakas", "bazilikai", "alyvuogių aliejus"],
+        "process": "Batoną supjaustykite riekelėmis ir paskrudinkite. Ant viršaus dėkite smulkintus pomidorus, česnaką, bazilikus ir apšlakstykite alyvuogių aliejumi.",
+        "average_cost": "4"
     },
     {
-      "name": "Keptų burokėlių ir fetos sūrio salotos",
-      "ingredients": ["Virti burokėliai", "Dryžuotieji pomidorai", "Ridikėliai", "Feta sūris"],
-      "process": "Supjaustykite burokėlius ir ridikėlius. Sumaišykite su pomidorais ir sutrupintu feta sūriu. Padažui naudokite alyvuogių aliejų ir balzaminį actą.",
-      "cost": "5.56 EUR"
+        "name": "Gazpacho",
+        "ingredients": ["pomidorai", "agurkai", "žaliosios paprikos", "svogūnai", "česnakas", "alyvuogių aliejus", "balzaminis actas"],
+        "process": "Visus ingredientus sutrinkite į vientisą masę. Atvėsinkite ir patiekite šaltą.",
+        "average_cost": "6"
     },
     {
-      "name": "Kiaušinių ir špinatų pusryčių suktinukas",
-      "ingredients": ["Rudi vištų kiaušiniai", "Švieži špinatai", "Viso grūdo suktinukai"],
-      "process": "Išplakite kiaušinius ir sumaišykite su pakepintais špinatais. Patiekite viso grūdo suktinuke.",
-      "cost": "3.37 EUR"
+        "name": "Tiramisu",
+        "ingredients": ["savoiardi sausainiai", "kava", "mascarpone sūris", "kiaušiniai", "cukrus", "kakava milteliai"],
+        "process": "Sausainius pamirkykite kavoje. Sumaišykite mascarpone sūrį, kiaušinius ir cukrų. Sluoksniuokite sausainius ir kremą. Apibarstykite kakava.",
+        "average_cost": "9"
     },
     {
-      "name": "Daržovių omletas",
-      "ingredients": ["Rudi vištų kiaušiniai", "Švieži špinatai", "Saladžiųjų paprikų", "Svogūnų laiškai"],
-      "process": "Iškepkite omletą iš kiaušinių, špinatų, supjaustytų saldžiųjų paprikų ir svogūnų laiškų. Patiekite su viso grūdo duona.",
-      "cost": "3.57 EUR"
-    },
-    {
-      "name": "Saldžiųjų bulvių ir avinžirnių karijus",
-      "ingredients": ["Saldžiosios bulvės", "Konservuoti avinžirniai", "Svogūnai", "Konservuoti pomidorai"],
-      "process": "Virinkite kubeliais supjaustytas saldžiąsias bulves, avinžirnius, svogūnus ir pomidorus su karijų prieskoniais. Patiekite su rudaisiais ryžiais.",
-      "cost": "4.26 EUR"
-    },
-    {
-      "name": "Obuolių ir riešutų salotos",
-      "ingredients": ["Obuoliai 'Granny Smith'", "Riešutai", "Saliero stiebai", "Natūralus jogurtas"],
-      "process": "Sumaišykite supjaustytus obuolius, riešutus ir salierą. Padažui naudokite natūralų jogurtą sumaišytą su trupučiu medaus.",
-      "cost": "Priklauso nuo riešutų kainos"
-    }
+    "name": "Spaghetti Carbonara",
+    "ingredients": ["spaghetti", "kiaulienos šoninė", "kiaušiniai", "parmezano sūris", "juodieji pipirai"],
+    "process": "Išvirkite spaghetti. Kiaulienos šoninę apkepinkite, sumaišykite su kiaušiniais, parmezano sūriu ir pipirais. Sumaišykite su makaronais.",
+    "average_cost": "5"
+  },
+  {
+    "name": "Pizza Margherita",
+    "ingredients": ["pica padas", "pomidorų padažas", "mozzarella sūris", "bazilikai", "alyvuogių aliejus"],
+    "process": "Iškočiokite picos padą, patepkite pomidorų padažu, užberkite mozzarella sūriu, bazilikais ir aptilkite alyvuogių aliejumi. Kepkite 10-12 minučių.",
+    "average_cost": "7"
+  },
+  {
+    "name": "Paella",
+    "ingredients": ["ryžiai", "vištienos gabaliukai", "jūros gėrybės", "žaliosios žirneliai", "raudonieji paprikos", "ciberžolė"],
+    "process": "Vištieną ir jūros gėrybes apkepinkite, pridėkite ryžius, žaliuosius žirnelius, paprikas ir ciberžolę. Troškinkite iki ryžių suminkštėjimo.",
+    "average_cost": "10"
+  },
+  {
+    "name": "Lasagne",
+    "ingredients": ["lasanjos lakštai", "malta mėsa", "pomidorų padažas", "bešamelio padažas", "parmezano sūris"],
+    "process": "Kaitinkite orkaitę. Paruoškite maltos mėsos ir pomidorų padažą. Kiekvieną lasanjos sluoksnį patepkite mėsos padažu, bešamelio padažu ir parmezano sūriu. Kepkite 30 minučių.",
+    "average_cost": "8"
+  },
+  {
+    "name": "Bruschetta",
+    "ingredients": ["batonas", "pomidorai", "česnakas", "bazilikai", "alyvuogių aliejus"],
+    "process": "Batoną supjaustykite riekelėmis ir paskrudinkite. Ant viršaus dėkite smulkintus pomidorus, česnaką, bazilikus ir apšlakstykite alyvuogių aliejumi.",
+    "average_cost": "4"
+  },
+  {
+    "name": "Gazpacho",
+    "ingredients": ["pomidorai", "agurkai", "žaliosios paprikos", "svogūnai", "česnakas", "alyvuogių aliejus", "balzaminis actas"],
+    "process": "Visus ingredientus sutrinkite į vientisą masę. Atvėsinkite ir patiekite šaltą.",
+    "average_cost": "6"
+  },
+  {
+    "name": "Tiramisu",
+    "ingredients": ["savoiardi sausainiai", "kava", "mascarpone sūris", "kiaušiniai", "cukrus", "kakava milteliai"],
+    "process": "Sausainius pamirkykite kavoje. Sumaišykite mascarpone sūrį, kiaušinius ir cukrų. Sluoksniuokite sausainius ir kremą. Apibarstykite kakava.",
+    "average_cost": "9"
+  },
+  {
+    "name": "Risotto",
+    "ingredients": ["ryžiai", "svogūnai", "vyšniniai pomidorai", "baltasis vynas", "sultinys", "parmezano sūris"],
+    "process": "Svogūnus ir pomidorus apkepinkite, įpilkite vyno. Pridėkite ryžius, sultinį ir troškinkite. Pabaigoje įmaišykite parmezano sūrį.",
+    "average_cost": "7"
+  },
+  {
+    "name": "Frittata",
+    "ingredients": ["kiaušiniai", "pienas", "parmezano sūris", "svogūnai", "daržovės", "alyvuogių aliejus"],
+    "process": "Išplakite kiaušinius su pienu ir parmezano sūriu. Svogūnus ir daržoves apkepinkite. Kiaušinių mišinį supilkite ant daržovių ir kepkite orkaitėje.",
+    "average_cost": "6"
+  },
+  {
+    "name": "Churros",
+    "ingredients": ["miltai", "vanduo", "cukrus", "alyva", "cukrus", "cinamonas"],
+    "process": "Miltus sumaišykite su vandeniu ir užvirkite. Formuokite churros ir kepkite alyvoje. Apibarstykite cukrumi ir cinamonu.",
+    "average_cost": "5"
+  }
 ]
 
 def get_image_url(query):
@@ -99,5 +141,6 @@ doc_ref = db.reference("/maxima_recipes")
 # Add image URLs to your data
 for recipe in data:
     image_url = get_image_url(recipe['name'])
+    recipe['id'] = str(uuid.uuid4())
     recipe['imageUrl'] = image_url
     doc_ref.push(recipe)
